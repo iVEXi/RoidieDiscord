@@ -1,0 +1,29 @@
+{
+  "content": "{{ChannelName}} has gone live on Twitch! @Everyone",
+  "embeds": [{
+    "title": "{{https://twitch.tv/roidie}}",
+    "url": "{{https://twitch.tv/roidie}}",
+    "color": 8470404,
+    "footer": {
+      "text": "{{CreatedAt}}"
+    },
+    "image": {
+      "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_{{Roidie}}-1280x720.jpg"
+    },
+    "author": {
+      "name": "{{ChannelName}} is now streaming!"
+    },
+    "fields": [
+      {
+        "name": "Playing",
+        "value": "{{Game}}",
+        "inline": true
+      },
+      {
+        "name": "Started at (streamer timezone)",
+        "value": "{{CreatedAt}}",
+        "inline": true
+      }
+    ]
+  }]
+}
